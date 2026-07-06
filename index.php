@@ -15,7 +15,7 @@ if ($uri === '' || $uri === '/') {
 
 /* POST */
 if ($uri === "/submitMenuItem") {
-    require $basePath . "/submit_menu_item.php";
+    require $basePath . "/api/submit_menu_item.php";
     exit;
 }
 
